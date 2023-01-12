@@ -1,0 +1,55 @@
+/* Font Section */
+@font-face {
+    font-family: AlegreyaBold;
+    src: url(../Fonts/Alegreya-Bold.ttf);
+}
+
+@font-face {
+    font-family: AlegreyaRegular;
+    src: url(../Fonts/Alegreya-Regular.ttf);
+}
+
+@font-face {
+    font-family: SourceSansProBold;
+    src: url(../Fonts/SourceSansPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: SourceSansProRegular;
+    src: url(../Fonts/SourceSansPro-Regular.ttf);
+}
+
+
+body{
+    background-color:  #368f8b;
+}
+
+
+/* NavBar Styles Start */
+.navbar{
+    background-color: #246a73;
+    font-family: AlegreyaBold;
+}
+.desertSand{
+    color: #ddbea8;
+    font-size: 3rem;
+}
+/* NavBar Styles End */
+
+/* Index Page Start */
+.btn{
+    background-color: #160f29;
+    font-family: SourceSansProRegular;
+    color: #F3DFC1;
+    font-size: 2rem;
+}
+.indexBtn{
+    width: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+/* Index Page End */
+
+
+
+
