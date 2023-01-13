@@ -41,7 +41,7 @@
           <h1 class="askingFont">What's your name?</h1>
           <form>
             <div class="form-group">
-              <input type="text" class="form-control askingForm" id="formGroupExampleInput"
+              <input id="nameInput" type="text" class="form-control askingForm"
                 placeholder="Example: Brandon">
             </div>
             <br>
@@ -49,17 +49,16 @@
           <h1 class="askingFont">How old are you?</h1> 
           <form>
             <div class="form-group">
-              <input type="text" class="form-control askingForm" id="formGroupExampleInput" placeholder="Example: 30">
+              <input id="ageInput" type="text" class="form-control askingForm" placeholder="Example: 30">
             </div>
             <br>
           </form>
-          <button type="button" class="btn askingBtn">Submit</button>
+          <button id="askingSubBtn" type="button" class="btn askingBtn">Submit</button>
         </div>
         
         <div class="col-3"></div>
 <div class="col-6">
-  <h1 class = "askingReply">Wow what a beautiful name you have {name}, it's nice to finally meet you! I can't believe you're only {age} years old! You look as young as ever!
-  </h1>
+  <h1 id="askingReturn" class = "askingReplyText"></h1>
 </div>
       </div>
     </div>

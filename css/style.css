@@ -108,7 +108,7 @@ body{
     width: 77%;
     font-family: SourceSansProRegular;
 }
-.askingReply{
+.askingReplyText{
     font-family: SourceSansProRegular;
     color:#ddbea8;
     font-size: 4rem;
@@ -136,7 +136,8 @@ body{
 }
 .madLibReply{
     font-family: SourceSansProRegular;
-    font-size: 2rem;
+    font-size: 40
+    px;
     color:#160f29;
 }
 .madLibPadding{
@@ -150,7 +151,6 @@ body{
     font-family: SourceSansProRegular;
     font-size: 4rem;
     color:#ddbea8;
-    display: flex;
 }
 .reverseItPad{
     padding-left: 40px;
@@ -197,3 +197,11 @@ body{
 .ddb{
     color: #ddbea8;
 }
+
+/* restaurant picker start */
+.foodReply{
+    font-family: SourceSansProRegular;
+    font-size: 3rem;
+    color:#ddbea8;
+}
+/* restaurant picker end */

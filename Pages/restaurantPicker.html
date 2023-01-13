@@ -6,49 +6,67 @@
  -->
 
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-  </head>
-  <body>
 
-    <!-- NavBar Start -->
-    <nav class="navbar">
-      <div class="container-fluid">
-        <a class="navbar-brand desertSand" href="../Pages/restaurantPicker.html">Restaurant Picker</a>
-        <div class="d-flex justify-content-end">
-            <a class="nav-link desertSand" href="../index.html">Home</a>
-        </div>
-      </div>
-    </nav>
-    <!-- NavBar End -->
-<br><br><br><br><br>
-<div class="container-fluid">
-<h1 class = "restaurantPickTxt">Can't decide what to eat? Let us choose for you!</h1>
-<br>
-<div class="row">
-  <div class="col-4 d-flex justify-content-end">          <button type="button" class="btn foodBtn">Asian Food</button>
-  </div>
-  <div class="col-4 d-flex justify-content-center">          <button type="button" class="btn foodBtn">Fast Food</button>
-  </div>
-  <div class="col-4 d-flex justify-content-start">          <button type="button" class="btn foodBtn">Beverages</button>
-  </div>
-</div>
-<br><br><br><br>
-<h1 class= "restPickReply">You should try out:</h1>
-<h2 class="restPickReply">restaurant would go here.</h2>
-</div>
-
-
-
-
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="../scripts/restaurantPicker.js"></script>
-  </body>
-</html>
+ <!doctype html>
+ <html lang="en">
+ 
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Bootstrap demo</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <link rel="stylesheet" href="../css/style.css">
+ </head>
+ 
+ <body>
+ 
+   <!-- NavBar Start -->
+   <nav class="navbar">
+     <div class="container-fluid">
+       <a class="navbar-brand desertSand" href="../Pages/sayHello.html">Say Hello</a>
+       <div class="d-flex justify-content-end">
+         <a class="nav-link desertSand" href="../index.html">Home</a>
+       </div>
+     </div>
+   </nav>
+   <!-- NavBar End -->
+   <br>
+   <br>
+   <br>
+   <br>
+ 
+   <div class="container">
+     <div class="row">
+       <div class="col-12">
+         <h1 class="whatName">Can't decide what to eat? Let us choose for you!</h1>
+         <div class="row">
+           <form>
+             <div class="form-group">
+               <input id="foodInput" type="text" class="form-control sayHelloForm" placeholder="Example type in: ASIAN, FAST, or DRINKS">
+             </div>
+             <br>
+             <button type="button" id="foodSubBtn" class="btn sayHelloBtn">Submit</button>
+           </form>        
+         </div>
+       </div>
+     </div>
+ 
+ <br>
+ <br>
+ <br>
+ <br>
+ 
+     <h1 id="foodReturn" class ="foodReply d-flex justify-content-center"></h1>
+   </div>
+ 
+ 
+ 
+ 
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+     crossorigin="anonymous"></script>
+   <script src="../scripts/restaurantPicker.js"></script>
+ </body>
+ 
+ </html>

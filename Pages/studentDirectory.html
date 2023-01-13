@@ -28,57 +28,42 @@
       </div>
     </nav>
     <!-- NavBar End -->
-    <br><br><br><br>
-
-
-    <div class="container-fluid">
-      
-      <div class="col-12 madLibPad">
-        <div class="row">
-          <div class="col-3">
-            <h4 class="madLibFont">Find by first name:</h4>
+    <br>
+    <br>
+    <br>
+    <br>
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="whatName">Search for a Codestack student here</h1>
+          <div class="row">
             <form>
               <div class="form-group">
-                <input type="text" class="form-control madLibForm" id="formGroupExampleInput"
-                  placeholder="Example: Brandon">
+                <input id="userInput" type="text" class="form-control sayHelloForm" placeholder="Search by: First Name, Last Name, Slack Name, or Email.">
               </div>
-            </form>
-            <br>
-            <h4 class="madLibFont">Find by last name:</h4> 
-            <form>
-              <div class="form-group">
-                <input type="text" class="form-control madLibForm" id="formGroupExampleInput" placeholder="Example: Le">
-              </div>
-            </form>
-            <br>
-            <h4 class="madLibFont">Find by slack name:</h4> 
-            <form>
-              <div class="form-group">
-                <input type="text" class="form-control madLibForm" id="formGroupExampleInput" placeholder="Example: Brandon Le">
-              </div>
-            </form>
-            <br>
-            <h4 class="madLibFont">Find by email:</h4> 
-            <form>
-              <div class="form-group">
-                <input type="text" class="form-control madLibForm" id="formGroupExampleInput" placeholder="Example: ble@codestack.co">
-              </div>
-            </form>
-            <br>
-            <button type="button" class="btn madLibBtn">Submit</button>
+              <br>
+              <button type="button" id="directorySubBtn" class="btn sayHelloBtn">Submit</button>
+            </form>        
           </div>
-          
-  <div class="col-9">
-    <h1 class = "directoryReply directoryPadding">First name: Brandon</h1>
-    <h1 class = "directoryReply directoryPadding">Last name: Le</h1>
-    <h1 class = "directoryReply directoryPadding">Slack name: Brandon Le</h1>
-    <h1 class = "directoryReply directoryPadding">Email: ble@codestack.co</h1>
-    <h1 class = "directoryReply directoryPadding">Hobbies: Eating & Sleeping</h1>
-
-  </div>
         </div>
       </div>
-    </div>
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  <div id="getFirstName" class="directoryReply"></div>
+  <div id="getLastName" class="directoryReply"></div>
+  <div id="getSlackName" class="directoryReply"></div>
+  <div id="getEmail" class="directoryReply"></div>
+  <div id="getHobbies" class="directoryReply"></div>
+</div>
+
+
+</div>
+  
 
 
 
