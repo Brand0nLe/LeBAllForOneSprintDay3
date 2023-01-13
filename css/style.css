@@ -22,6 +22,7 @@
 
 body{
     background-color:  #368f8b;
+    background-size: cover;
 }
 
 
@@ -50,6 +51,149 @@ body{
 }
 /* Index Page End */
 
+/* Say Hello Start */
+.whatName{
+    font-family: SourceSansProRegular;
+    color:#160f29;
+}
+.sayHelloBtn{
+    width: 100%;
+    font-family: SourceSansProRegular;
+}
+.sayHelloForm{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #F3DFC1;
+}
+.sayHelloReply{
+    font-family: SourceSansProRegular;
+    font-size: 4rem;
+    color:#ddbea8;
+}
+/* Say Hello End */
+
+/* Add 2 Start */
+.add2Btn{
+    width: 100%;
+    font-family: SourceSansProRegular;
+}
+.add2Form{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #F3DFC1;
+}
+/* Add 2 End */
+
+/* Asking Questions Start */
+.askingForm{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #F3DFC1;
+    max-width: 77%;
+}
+.askingFont{
+    font-family: SourceSansProRegular;
+    color:#160f29;
+    font-size: 30px;
+}
+.askingText{
+    color: #ddbea8;
+    font-family: SourceSansProRegular;
+}
+.askingPad{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.askingBtn{
+    width: 77%;
+    font-family: SourceSansProRegular;
+}
+.askingReply{
+    font-family: SourceSansProRegular;
+    color:#ddbea8;
+    font-size: 4rem;
+}
+.padTop{
+    padding-top: 10px;
+}
+/* Asking Questions End */
+
+/* MadLibs Start */
+.madLibPad{
+    padding-left: 50px;
+}
+.madLibForm{
+    background: #F3DFC1;
+    max-width: 100%;
+}
+.madLibFont{
+    font-family: SourceSansProRegular;
+    font-size: 20px;
+}
+.madLibBtn{
+    width: 100%;
+    font-family: SourceSansProRegular;
+}
+.madLibReply{
+    font-family: SourceSansProRegular;
+    font-size: 2rem;
+    color:#160f29;
+}
+.madLibPadding{
+    padding-right: 100px;
+    padding-top: 70px;
+}
+/* MadLibs End */
+
+/* Reverse It Start */
+.reverseItReply{
+    font-family: SourceSansProRegular;
+    font-size: 4rem;
+    color:#ddbea8;
+    display: flex;
+}
+.reverseItPad{
+    padding-left: 40px;
+}
+/* Reverse It End */
+
+/* Restaurant Start */
+.restaurantPickTxt{
+    color:#F3DFC1;
+    font-family: SourceSansProRegular;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+}
+.foodBtn{
+    width: 60%;
+    height: 140%;
+    font-size: 50px;
+}
+.restPickReply{
+    font-family: SourceSansProRegular;
+    color:#F3DFC1;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+}
+/* Restaurant End */
+
+/* Student Directory Start */
+.directoryReply{
+    font-family: SourceSansProRegular;
+    color: #160f29;
+    font-size: 50px;
+}
+.directoryPadding{
+    padding-right: 50px;
+    padding-left: 300px;
+    padding-top: 20px;
+}
+/* Student Directory End */
 
 
-
+/* extra styles */
+.ddb{
+    color: #ddbea8;
+}
