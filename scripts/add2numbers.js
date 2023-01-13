@@ -29,6 +29,6 @@ function urlCall(url) {
 function AddingApi(numInput, numInput2){
     numInput = num1.value
     numInput2 = num2.value
-    add2NumbersUrl = "https://allforoneapibrandon.azurewebsites.net/allforone/add2numbers/" + numInput + "/" + numInput2;
+    add2NumbersUrl = "https://allforonenewapi.azurewebsites.net/allforone/add2numbers/" + numInput + "/" + numInput2;
     urlCall(add2NumbersUrl)
 }

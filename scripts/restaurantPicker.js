@@ -25,6 +25,6 @@ function urlCall(url) {
 
 function foodApi(savedInput){
         savedInput = foodInput.value
-        restaurantPickerUrl = "https://allforoneapibrandon.azurewebsites.net/allforone/restaurantPicker/" + savedInput
+        restaurantPickerUrl = "https://allforonenewapi.azurewebsites.net/allforone/restaurantPicker/" + savedInput
         urlCall(restaurantPickerUrl)
 }

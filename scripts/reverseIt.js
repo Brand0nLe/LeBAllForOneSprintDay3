@@ -25,6 +25,6 @@ function urlCall(url) {
 
 function reverseItApi(savedInput){
     savedInput = input1.value
-    reverseItUrl = "https://allforoneapibrandon.azurewebsites.net/allforone/reverseIt/" + savedInput;
+    reverseItUrl = "https://allforonenewapi.azurewebsites.net/allforone/reverseIt/" + savedInput;
     urlCall(reverseItUrl)
 }

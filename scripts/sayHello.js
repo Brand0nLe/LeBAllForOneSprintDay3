@@ -27,7 +27,7 @@ function helloApi(nameInput){
     var letters = /^[A-Za-z]+$/;
     if(nameInput.value.match(letters)){
         savedInput = nameInput.value
-        sayHelloUrl = "https://allforoneapibrandon.azurewebsites.net/allforone/sayhello/" + savedInput
+        sayHelloUrl = "https://allforonenewapi.azurewebsites.net/allforone/sayhello/" + savedInput
         urlCall(sayHelloUrl)
     }else{
         helloReturn.textContent = "Enter a valid response";

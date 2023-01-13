@@ -25,6 +25,6 @@ function urlCall(url) {
 
 function oddOrEvenApi(savedInput){
     savedInput = num1.value
-    oddOrEvenUrl = "https://allforoneapibrandon.azurewebsites.net/allforone/oddoreven/" + savedInput;
+    oddOrEvenUrl = "https://allforonenewapi.azurewebsites.net/allforone/oddoreven/" + savedInput;
     urlCall(oddOrEvenUrl)
 }

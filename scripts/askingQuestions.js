@@ -28,6 +28,6 @@ function urlCall(url) {
 function askingApi(savedInput, savedInput2){
     savedInput = nameInput.value
     savedInput2 = ageInput.value
-    askingQuestionsUrl = "https://allforoneapibrandon.azurewebsites.net/allforone/askingQuestions/" + savedInput + "/" + savedInput2;
+    askingQuestionsUrl = "https://allforonenewapi.azurewebsites.net/allforone/askingQuestions/" + savedInput + "/" + savedInput2;
     urlCall(askingQuestionsUrl)
 }

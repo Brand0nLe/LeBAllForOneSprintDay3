@@ -28,6 +28,6 @@ function urlCall(url) {
 function greaterLessApi(savedInput, savedInput2){
     savedInput = num1.value
     savedInput2 = num2.value
-    greaterLessThanUrl = "https://allforoneapibrandon.azurewebsites.net/allforone/greaterorlessthan/" + savedInput + "/" + savedInput2;
+    greaterLessThanUrl = "https://allforonenewapi.azurewebsites.net/allforone/greaterorlessthan/" + savedInput + "/" + savedInput2;
     urlCall(greaterLessThanUrl)
 }

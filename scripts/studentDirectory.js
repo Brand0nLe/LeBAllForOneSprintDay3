@@ -1,10 +1,10 @@
 let userInput = document.getElementById("userInput");
 
-let getFirstName = document.getElementById("firstName");
-let getLastName = document.getElementById("lastName");
-let getSlackName = document.getElementById("slackName");
-let getEmail = document.getElementById("email");
-let getHobbies = document.getElementById("hobbies");
+let getFirstName = document.getElementById("getFirstName");
+let getLastName = document.getElementById("getLastName");
+let getSlackName = document.getElementById("getSlackName");
+let getEmail = document.getElementById("getEmail");
+let getHobbies = document.getElementById("getHobbies");
 
 let directoryReturn = document.getElementById("directoryReturn");
 let directorySubBtn = document.getElementById("directorySubBtn");
@@ -37,7 +37,7 @@ function urlCall(url) {
 function studentDirectoryApi(userInput){
     if (userInput.value){
     savedInput = userInput.value
-    studentDirectoryUrl = "https://allforoneapibrandon.azurewebsites.net/allforone/getstudentby/" + savedInput;
+    studentDirectoryUrl = "https://allforonenewapi.azurewebsites.net/allforone/getstudentby/" + savedInput;
     urlCall(studentDirectoryUrl);
     }else{
         directoryReturn.textContent = "Enter a valid response";

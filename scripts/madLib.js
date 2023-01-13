@@ -53,6 +53,6 @@ function madLibApi(savedInput, savedInput2, savedInput3, savedInput4, savedInput
     savedInput8 = num2.value
     savedInput9 = emotion.value
     savedInput10 = num3.value
-    madLibUrl = "https://allforoneapibrandon.azurewebsites.net/allforone/madlib/" + savedInput + "/" + savedInput2 + "/" + savedInput3 + "/" + savedInput4  + "/" + savedInput5  + "/" + savedInput6  + "/" + savedInput7  + "/" + savedInput8  + "/" + savedInput9  + "/" + savedInput10;
+    madLibUrl = "https://allforonenewapi.azurewebsites.net/allforone/madlib/" + savedInput + "/" + savedInput2 + "/" + savedInput3 + "/" + savedInput4  + "/" + savedInput5  + "/" + savedInput6  + "/" + savedInput7  + "/" + savedInput8  + "/" + savedInput9  + "/" + savedInput10;
     urlCall(madLibUrl)
 }
